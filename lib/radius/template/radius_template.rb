@@ -84,7 +84,6 @@ module Radius
       end
 
       content
-      end
     end
 
     def build_object_tag(key, main_obj)
@@ -110,10 +109,7 @@ module Radius
           define_tag ("#{key}:#{attribute.to_s}") do |tag|
             obj = tag.locals.get(main_klass).send(attribute) rescue tag.missing!
           end
-
         end
-
-
       end
     end
 
