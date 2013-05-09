@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ceritium@gmail.com"]
   spec.description   = %q{Simple Ruby on Rails wrapper around radius gem}
   spec.summary       = %q{Simple Ruby on Rails wrapper around radius gem}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/fourmach/radius-template"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
